@@ -52,7 +52,9 @@ while(1)
         break;
            
         case 6:
-        goto end
+        printf("Quitting the program....");
+        goto end;
+        break;
         
         default:
         printf("Wrong Input\n");
