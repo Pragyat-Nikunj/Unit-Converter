@@ -3,8 +3,8 @@
 
 int main()
 {  
-
-  int n;
+while(1)
+{ int n;
     float c,x;
     printf("Enter the conversion you want to do:-\n");
     printf("Press 1 to convert km to miles\n");
@@ -54,6 +54,6 @@ int main()
         default:
         printf("Wrong Input\n");
     }
-
+}
     return 0;
 }
