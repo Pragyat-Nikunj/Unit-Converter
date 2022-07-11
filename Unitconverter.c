@@ -50,10 +50,14 @@ while(1)
         x=c*0.0254;
         printf("%f meters\n",x);
         break;
+           
+        case 6:
+        goto end
         
         default:
         printf("Wrong Input\n");
     }
 }
+    end:
     return 0;
 }
